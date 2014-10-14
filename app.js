@@ -224,32 +224,32 @@ route();
                                 if(IsLoading) return;
                                 IsLoading = true;
 
-                                if($("input[name='Name']").val() == ''){
-                                        self.showAlert('Please enter name.', 'Message');
-                                        IsLoading = false;
-                                        return;
-                                }
+//                                if($("input[name='Name']").val() == ''){
+//                                        self.showAlert('Please enter name.', 'Message');
+//                                        IsLoading = false;
+//                                        return;
+//                                }
+//
+//                                if(emailRegex.test(emailInput)){
+//                                }else {
+//                                        self.showAlert('Please enter a valid email.', 'Message');
+//                                        IsLoading = false;
+//                                        return;
+//                                }
+//
+//                                if($("input[name='Institution']").val() == ''){
+//                                        self.showAlert('Please enter Hospital/Institution.', 'Message');
+//                                        IsLoading = false;
+//                                        return;
+//                                }
 
-                                if(emailRegex.test(emailInput)){
-                                }else {
-                                        self.showAlert('Please enter a valid email.', 'Message');
-                                        IsLoading = false;
-                                        return;
-                                }
 
-                                if($("input[name='Institution']").val() == ''){
-                                        self.showAlert('Please enter Hospital/Institution.', 'Message');
-                                        IsLoading = false;
-                                        return;
-                                }
-
-
-                                if($('#IAgree').prop('checked')){
-                                } else {
-                                        self.showAlert('Please click T&C.', 'Message');
-                                        IsLoading = false;
-                                        return;
-                                }
+//                                if($('#IAgree').prop('checked')){
+//                                } else {
+//                                        self.showAlert('Please click T&C.', 'Message');
+//                                        IsLoading = false;
+//                                        return;
+//                                }
 
                                 spinner.hide();
                                 spinner.show();
