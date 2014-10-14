@@ -305,12 +305,11 @@ route();
                         }
                 });
 
-
-                $(".sharelink").entwine({
-                        onclick: function(e){
-                                e.preventDefault();
-                        }
-                });
+//                $(".sharelink").entwine({
+//                        onclick: function(e){
+//                                e.preventDefault();
+//                        }
+//                });
 
                 $('.iFrameWrapper').entwine({
                         onadd: function(){
